@@ -8,15 +8,15 @@ var css = `
 #magnifier {
   position: absolute;
   display: none;
-  width: 220px; 
-  height: 220px; 
+  width: 110px; 
+  height: 110px; 
   border: 0px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
   pointer-events: none;
   z-index: 1000;
-  cursor: zoom-in;
+  cursor: none;
   background: #fff;
 }
 
